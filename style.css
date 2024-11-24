@@ -4,12 +4,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  ;
+  
 }
 body{
   background-color: #292524;
   color: #fafaf9;
-  padding: 40px;
+  padding: 40px 60px;
+}
+.container{
+  max-width: 1500px;
+  margin: 0 auto;
+  
+}
+/*layouts*/
+.main{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 50px;
 }
 h1{
   font-size: 42px;
@@ -18,6 +29,10 @@ h1{
   font-family: "Coiny", sans-serif;
   color: #fafaf9;
   
+}
+.logo img{
+  width: 68px;
+  height: 68px;
 }
 .header{
   margin-bottom: 40px;
@@ -69,4 +84,19 @@ ul{
   margin-bottom: 40px;
   padding: 16px 40px;
   text-align: center;
+}
+.source:hover,
+.source:active{
+  color: #3b82f6;
+}
+
+.source:visited{
+  color: #a8a29e;
+  text-decoration:none;
+  margin-left: 12px;
+  
+}
+.source:link{
+  color: #a8a29e;
+  text-decoration:none;
 }
