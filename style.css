@@ -11,6 +11,9 @@ body{
   color: #fafaf9;
   padding: 40px 60px;
 }
+.hidden{
+  display: none !important;
+}
 .container{
   max-width: 1500px;
   margin: 0 auto;
